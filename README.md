@@ -92,6 +92,12 @@ These require signup but the free tier is generous:
 | News API | 100 req/day | News headlines |
 | OpenWeatherMap | 60 req/min | Weather data |
 | Abstract API | 100 req/day | Email validation, IP |
+| Cloudflare Radar | 10K req/day | Internet traffic data by country, top domains, attack trends |
+| Geekbench Browser | No key needed | CPU benchmark scores for any processor |
+| EmailRep | 20 req/day | Email reputation scoring |
+| RDAP (IANA) | Unlimited | Domain/IP registration data (replacing WHOIS) |
+| PyPI JSON API | No key needed | Python package metadata and versions |
+| npm Registry | No key needed | npm package info and security advisories |
 
 ## Related
 
@@ -105,6 +111,9 @@ These require signup but the free tier is generous:
 - [npm Security Scanner](https://github.com/spinov001-art/npm-security-scanner) — npm vulnerability scanning
 - [API Monetization Guide](https://github.com/spinov001-art/api-monetization-guide) — How to make money with APIs
 - [Get Paid Writing Technical Articles](https://github.com/spinov001-art/get-paid-writing-technical-articles) — 25+ companies paying $200-1500/article
+- [API Rate Limiter Patterns](https://github.com/spinov001-art/api-rate-limiter-patterns) — Token bucket, backoff, sliding window
+- [ARM CPU Benchmarks](https://github.com/spinov001-art/arm-cpu-benchmarks) — ARM vs x86 performance comparisons
+- [Wine Linux Compatibility](https://github.com/spinov001-art/wine-linux-compatibility) — Run Windows apps on Linux
 
 ## Need Custom API Integration?
 
