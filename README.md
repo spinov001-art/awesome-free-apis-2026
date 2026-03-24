@@ -39,6 +39,10 @@ Stop paying for data. These APIs give you everything from weather to AI to secur
 | [Shodan](https://developer.shodan.io/) | Device search (free key) | 100 results/search |
 | [VirusTotal](https://developers.virustotal.com/) | File/URL scanning (free key) | 4 req/min |
 | [HIBP](https://haveibeenpwned.com/API/) | Data breach checking | Free for individual lookups |
+| [NVD](https://nvd.nist.gov/developers/) | 250K+ CVE vulnerability database | 5 req/30s (free key: 50) |
+| [Censys](https://search.censys.io/api) | Internet host & certificate search | 250 queries/month free |
+| [SecurityTrails](https://securitytrails.com/corp/api) | DNS history & subdomains | 50 queries/month free |
+| [MalwareBazaar](https://bazaar.abuse.ch/api/) | Malware sample database | No key needed |
 
 ### Developer Tools
 | API | Description | Example |
@@ -113,6 +117,11 @@ These require signup but the free tier is generous:
 - [Get Paid Writing Technical Articles](https://github.com/spinov001-art/get-paid-writing-technical-articles) — 25+ companies paying $200-1500/article
 - [API Rate Limiter Patterns](https://github.com/spinov001-art/api-rate-limiter-patterns) — Token bucket, backoff, sliding window
 - [ARM CPU Benchmarks](https://github.com/spinov001-art/arm-cpu-benchmarks) — ARM vs x86 performance comparisons
+- [NVD Vulnerability Scanner](https://github.com/spinov001-art/nvd-vulnerability-scanner) — Scan Python deps against 250K+ CVEs
+- [VirusTotal Scanner](https://github.com/spinov001-art/virustotal-scanner) — Scan files/URLs against 70+ AV engines
+- [Shodan Scanner](https://github.com/spinov001-art/shodan-scanner) — Internet-connected device search
+- [HIBP Password Checker](https://github.com/spinov001-art/hibp-password-checker) — Check passwords against 14B+ breaches
+- [Censys Scanner](https://github.com/spinov001-art/censys-scanner) — Host & certificate search
 - [Wine Linux Compatibility](https://github.com/spinov001-art/wine-linux-compatibility) — Run Windows apps on Linux
 
 ## Need Custom API Integration?
