@@ -104,6 +104,7 @@ These require signup but the free tier is generous:
 - [WHOIS Lookup Tools](https://github.com/spinov001-art/whois-lookup-tools) — Domain intelligence
 - [npm Security Scanner](https://github.com/spinov001-art/npm-security-scanner) — npm vulnerability scanning
 - [API Monetization Guide](https://github.com/spinov001-art/api-monetization-guide) — How to make money with APIs
+- [Get Paid Writing Technical Articles](https://github.com/spinov001-art/get-paid-writing-technical-articles) — 25+ companies paying $200-1500/article
 
 ## Need Custom API Integration?
 
