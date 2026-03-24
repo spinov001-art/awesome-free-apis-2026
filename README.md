@@ -28,14 +28,17 @@ Stop paying for data. These APIs give you everything from weather to AI to secur
 | [PubMed](https://eutils.ncbi.nlm.nih.gov/) | 36M+ medical papers | `curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=ai"` |
 | [NASA](https://api.nasa.gov) | Mars photos, asteroids, APOD | `curl "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"` |
 
-### Security
+### Security & OSINT
 | API | Description | Example |
 |-----|-------------|---------|
 | [crt.sh](https://crt.sh) | Certificate transparency, subdomains | No key needed |
 | [URLhaus](https://urlhaus-api.abuse.ch/) | Malicious URL database | `curl -d "url=http://example.com" https://urlhaus-api.abuse.ch/v1/url/` |
+| [EmailRep.io](https://emailrep.io/) | Email reputation scoring | `curl "https://emailrep.io/test@example.com"` |
+| [RDAP](https://rdap.org/) | Modern WHOIS replacement (JSON) | `curl "https://rdap.org/domain/example.com"` |
 | [AbuseIPDB](https://www.abuseipdb.com/api) | IP reputation (free key) | 1,000 checks/day |
 | [Shodan](https://developer.shodan.io/) | Device search (free key) | 100 results/search |
 | [VirusTotal](https://developers.virustotal.com/) | File/URL scanning (free key) | 4 req/min |
+| [HIBP](https://haveibeenpwned.com/API/) | Data breach checking | Free for individual lookups |
 
 ### Developer Tools
 | API | Description | Example |
@@ -45,6 +48,8 @@ Stop paying for data. These APIs give you everything from weather to AI to secur
 | [PyPI](https://pypi.org/simple/) | Python package metadata | `curl "https://pypi.org/pypi/requests/json"` |
 | [cdnjs](https://cdnjs.com/api) | JS library CDN links | `curl "https://api.cdnjs.com/libraries?search=react"` |
 | [Hacker News](https://hacker-news.firebaseio.com/) | Stories, comments, users | `curl "https://hacker-news.firebaseio.com/v0/topstories.json"` |
+| [npms.io](https://api.npms.io/) | npm package quality scores | `curl "https://api.npms.io/v2/package/express"` |
+| [Libraries.io](https://libraries.io/api) | Package dependency tracking (free key) | 60 req/min |
 
 ### Finance & Crypto
 | API | Description | Example |
@@ -94,6 +99,11 @@ These require signup but the free tier is generous:
 - [API Scraping Templates](https://github.com/spinov001-art/api-scraping-templates) — 20+ ready Python templates
 - [Python Security Tools](https://github.com/spinov001-art/python-security-tools) — 10 security recon scripts
 - [Free Developer Tools](https://github.com/spinov001-art/free-developer-tools-2026) — 200+ free dev tools
+- [HN API Toolkit](https://github.com/spinov001-art/hn-api-toolkit) — Hacker News API scripts
+- [Email OSINT Toolkit](https://github.com/spinov001-art/email-osint-toolkit) — Email reputation & breach tools
+- [WHOIS Lookup Tools](https://github.com/spinov001-art/whois-lookup-tools) — Domain intelligence
+- [npm Security Scanner](https://github.com/spinov001-art/npm-security-scanner) — npm vulnerability scanning
+- [API Monetization Guide](https://github.com/spinov001-art/api-monetization-guide) — How to make money with APIs
 
 ## Need Custom API Integration?
 
