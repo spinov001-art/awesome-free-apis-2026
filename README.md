@@ -161,3 +161,7 @@ I build data pipelines that pull from any API. **[Hire me →](https://spinov001
 ---
 
 **Know an API I missed?** [Open an issue](https://github.com/spinov001-art/awesome-free-apis-2026/issues) — I'll add it.
+- [API Vulnerability Scanner](https://github.com/spinov001-art/api-vulnerability-scanner) — OWASP Top 10 API security scanner
+- [API Rate Limit Tester](https://github.com/spinov001-art/api-rate-limit-tester) — Test actual rate limits of any API
+- [Morning Briefing Bot](https://github.com/spinov001-art/morning-briefing-bot) — Daily weather + crypto + news via Telegram
+- [API Secrets Scanner](https://github.com/spinov001-art/api-secrets-scanner) — Find exposed API keys in code
