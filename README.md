@@ -124,6 +124,7 @@ These require signup but the free tier is generous:
 - [HIBP Password Checker](https://github.com/spinov001-art/hibp-password-checker) — Check passwords against 14B+ breaches
 - [Censys Scanner](https://github.com/spinov001-art/censys-scanner) — Host & certificate search
 - [Wine Linux Compatibility](https://github.com/spinov001-art/wine-linux-compatibility) — Run Windows apps on Linux
+- [Free API Monetization Guide](https://github.com/spinov001-art/free-api-monetization-guide) — Turn free APIs into $1K-10K/month revenue
 
 ## Need Custom API Integration?
 
