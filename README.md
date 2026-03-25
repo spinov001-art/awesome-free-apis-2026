@@ -154,6 +154,17 @@ These require signup but the free tier is generous:
 - [PyPI Typosquat Scanner](https://github.com/spinov001-art/pypi-typosquat-scanner) — Detect typosquatting attacks on Python packages
 - [Dependency Audit Toolkit](https://github.com/spinov001-art/dependency-audit-toolkit) — Supply chain security for npm + PyPI
 
+### New Toolkits (March 2026)
+
+- [ClinicalTrials.gov Toolkit](https://github.com/spinov001-art/clinicaltrials-research-toolkit) — Search 500K+ clinical trials worldwide
+- [Patent API Toolkit](https://github.com/spinov001-art/patent-api-toolkit) — Search 8M+ US patents (no key)
+- [Finance API Toolkit](https://github.com/spinov001-art/finance-api-toolkit) — Stocks, crypto, forex, economics
+- [Weather API Toolkit](https://github.com/spinov001-art/weather-api-toolkit) — Open-Meteo: forecast + history, no key
+- [IP Geolocation Toolkit](https://github.com/spinov001-art/ip-geolocation-toolkit) — Location + security for any IP
+- [API Security Scanner](https://github.com/spinov001-art/api-security-scanner) — 5 free security APIs in one tool
+- [Geocoding Toolkit](https://github.com/spinov001-art/geocoding-toolkit) — Address ↔ coordinates, no Google key
+- [DNS Lookup Toolkit](https://github.com/spinov001-art/dns-lookup-toolkit) — DNS, WHOIS, SSL certificate checks
+
 ## Need Custom API Integration?
 
 I build data pipelines that pull from any API. **[Hire me →](https://spinov001-art.github.io)**
