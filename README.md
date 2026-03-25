@@ -28,7 +28,12 @@ Stop paying for data. These APIs give you everything from weather to AI to secur
 | [CORE](https://core.ac.uk) | 260M+ papers, 36M+ full-text from 10K+ repos | Requires free API key |
 | [Semantic Scholar](https://api.semanticscholar.org) | 200M+ papers, AI recommendations | `curl "https://api.semanticscholar.org/graph/v1/paper/search?query=ai"` |
 | [PubMed](https://eutils.ncbi.nlm.nih.gov/) | 36M+ medical papers | `curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=ai"` |
-| [NASA](https://api.nasa.gov) | Mars photos, asteroids, APOD | `curl "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"` |
+| [NASA](https://api.nasa.gov) | Mars photos, asteroids, APOD, 20+ APIs | `curl "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"` |
+| [Europe PMC](https://europepmc.org/RestfulWebService) | 40M+ biomedical papers, full-text | `curl "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=covid"` |
+| [Unpaywall](https://unpaywall.org/products/api) | Find open access versions of papers | `curl "https://api.unpaywall.org/v2/10.1038/nature12373?email=test@test.com"` |
+| [ORCID](https://info.orcid.org/documentation/api-tutorials/) | 18M+ researcher profiles, no key needed | `curl -H "Accept: application/json" "https://pub.orcid.org/v3.0/search/?q=family-name:Einstein"` |
+| [DBLP](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) | 6M+ CS publications, no key needed | `curl "https://dblp.org/search/publ/api?q=transformer&format=json&h=5"` |
+| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392) | GDP, population, 16K+ indicators, 200+ countries | `curl "https://api.worldbank.org/v2/country/US/indicator/NY.GDP.MKTP.CD?format=json"` |
 
 ### Security & OSINT
 | API | Description | Example |
@@ -57,9 +62,10 @@ Stop paying for data. These APIs give you everything from weather to AI to secur
 | [npms.io](https://api.npms.io/) | npm package quality scores | `curl "https://api.npms.io/v2/package/express"` |
 | [Libraries.io](https://libraries.io/api) | Package dependency tracking (free key) | 60 req/min |
 
-### Finance & Crypto
+### Finance, Economics & Crypto
 | API | Description | Example |
 |-----|-------------|---------|
+| [FRED](https://fred.stlouisfed.org/docs/api/) | 800K+ US economic time series (GDP, unemployment, inflation) | `curl "https://api.stlouisfed.org/fred/series/observations?series_id=GDP&api_key=KEY&file_type=json"` |
 | [CoinGecko](https://www.coingecko.com/en/api) | Crypto prices, market cap | `curl "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"` |
 | [Exchange Rates](https://open.er-api.com/) | Currency exchange rates | `curl "https://open.er-api.com/v6/latest/USD"` |
 
@@ -135,6 +141,15 @@ These require signup but the free tier is generous:
 - [CORE Research Tool](https://github.com/spinov001-art/core-research-tool) — Search 260M+ papers with full-text access
 - [Python API Wrapper Template](https://github.com/spinov001-art/python-api-wrapper-template) — Production-ready template with rate limiting
 - [Social Media Data Extractor](https://github.com/spinov001-art/social-media-data-extractor) — Multi-platform social data extraction
+- [Crossref DOI Tool](https://github.com/spinov001-art/crossref-doi-tool) — Look up any DOI metadata
+- [Unpaywall OA Checker](https://github.com/spinov001-art/unpaywall-oa-checker) — Find open access paper versions
+- [Europe PMC Tool](https://github.com/spinov001-art/europe-pmc-tool) — 40M+ biomedical papers search
+- [World Bank Data Tool](https://github.com/spinov001-art/world-bank-data-tool) — GDP, population for 200+ countries
+- [ORCID Researcher Lookup](https://github.com/spinov001-art/orcid-researcher-lookup) — 18M+ researcher profiles
+- [DBLP Paper Search](https://github.com/spinov001-art/dblp-paper-search) — 6M+ CS publications search
+- [NASA Data Tool](https://github.com/spinov001-art/nasa-data-tool) — 20+ NASA APIs (asteroids, Mars, exoplanets)
+- [FRED Economic Data](https://github.com/spinov001-art/fred-economic-data) — 800K+ US economic time series
+- [Academic Research Toolkit](https://github.com/spinov001-art/academic-research-toolkit) — All research APIs in one place
 
 ## Need Custom API Integration?
 
