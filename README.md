@@ -150,6 +150,9 @@ These require signup but the free tier is generous:
 - [NASA Data Tool](https://github.com/spinov001-art/nasa-data-tool) — 20+ NASA APIs (asteroids, Mars, exoplanets)
 - [FRED Economic Data](https://github.com/spinov001-art/fred-economic-data) — 800K+ US economic time series
 - [Academic Research Toolkit](https://github.com/spinov001-art/academic-research-toolkit) — All research APIs in one place
+- [npm Typosquat Scanner](https://github.com/spinov001-art/npm-typosquat-scanner) — Detect typosquatting attacks on npm packages
+- [PyPI Typosquat Scanner](https://github.com/spinov001-art/pypi-typosquat-scanner) — Detect typosquatting attacks on Python packages
+- [Dependency Audit Toolkit](https://github.com/spinov001-art/dependency-audit-toolkit) — Supply chain security for npm + PyPI
 
 ## Need Custom API Integration?
 
