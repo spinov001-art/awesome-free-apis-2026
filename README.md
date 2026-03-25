@@ -126,6 +126,11 @@ These require signup but the free tier is generous:
 - [Wine Linux Compatibility](https://github.com/spinov001-art/wine-linux-compatibility) — Run Windows apps on Linux
 - [Free API Monetization Guide](https://github.com/spinov001-art/free-api-monetization-guide) — Turn free APIs into $1K-10K/month revenue
 
+- [Hidden JSON APIs](https://github.com/spinov001-art/hidden-json-apis) — Secret JSON endpoints on popular sites
+- [Web Scraping Python Examples](https://github.com/spinov001-art/web-scraping-python-examples) — 30+ copy-paste Python scraping scripts
+- [Awesome Research APIs](https://github.com/spinov001-art/awesome-research-apis) — Free academic & scientific APIs
+- [Social Media Data Extractor](https://github.com/spinov001-art/social-media-data-extractor) — Multi-platform social data extraction
+
 ## Need Custom API Integration?
 
 I build data pipelines that pull from any API. **[Hire me →](https://spinov001-art.github.io)**
