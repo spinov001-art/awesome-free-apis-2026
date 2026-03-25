@@ -23,8 +23,10 @@ Stop paying for data. These APIs give you everything from weather to AI to secur
 | API | Description | Example |
 |-----|-------------|---------|
 | [arXiv](https://arxiv.org/help/api) | 2M+ research papers | `curl "http://export.arxiv.org/api/query?search_query=all:ai"` |
-| [Crossref](https://api.crossref.org) | 130M+ papers, DOI lookup | `curl "https://api.crossref.org/works?query=machine+learning"` |
-| [OpenAlex](https://openalex.org) | 250M+ research works | `curl "https://api.openalex.org/works?search=web+scraping"` |
+| [Crossref](https://api.crossref.org) | 150M+ DOIs, citation counts, funding data | `curl "https://api.crossref.org/works?query=machine+learning"` |
+| [OpenAlex](https://openalex.org) | 250M+ research works, 90M+ authors, no key | `curl "https://api.openalex.org/works?search=web+scraping"` |
+| [CORE](https://core.ac.uk) | 260M+ papers, 36M+ full-text from 10K+ repos | Requires free API key |
+| [Semantic Scholar](https://api.semanticscholar.org) | 200M+ papers, AI recommendations | `curl "https://api.semanticscholar.org/graph/v1/paper/search?query=ai"` |
 | [PubMed](https://eutils.ncbi.nlm.nih.gov/) | 36M+ medical papers | `curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=ai"` |
 | [NASA](https://api.nasa.gov) | Mars photos, asteroids, APOD | `curl "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"` |
 
@@ -129,6 +131,9 @@ These require signup but the free tier is generous:
 - [Hidden JSON APIs](https://github.com/spinov001-art/hidden-json-apis) — Secret JSON endpoints on popular sites
 - [Web Scraping Python Examples](https://github.com/spinov001-art/web-scraping-python-examples) — 30+ copy-paste Python scraping scripts
 - [Awesome Research APIs](https://github.com/spinov001-art/awesome-research-apis) — Free academic & scientific APIs
+- [OpenAlex Research Tool](https://github.com/spinov001-art/openalex-research-tool) — Search 250M+ academic works via OpenAlex API
+- [CORE Research Tool](https://github.com/spinov001-art/core-research-tool) — Search 260M+ papers with full-text access
+- [Python API Wrapper Template](https://github.com/spinov001-art/python-api-wrapper-template) — Production-ready template with rate limiting
 - [Social Media Data Extractor](https://github.com/spinov001-art/social-media-data-extractor) — Multi-platform social data extraction
 
 ## Need Custom API Integration?
