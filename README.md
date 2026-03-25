@@ -165,3 +165,6 @@ I build data pipelines that pull from any API. **[Hire me →](https://spinov001
 - [API Rate Limit Tester](https://github.com/spinov001-art/api-rate-limit-tester) — Test actual rate limits of any API
 - [Morning Briefing Bot](https://github.com/spinov001-art/morning-briefing-bot) — Daily weather + crypto + news via Telegram
 - [API Secrets Scanner](https://github.com/spinov001-art/api-secrets-scanner) — Find exposed API keys in code
+- [JSON API Mocker](https://github.com/spinov001-art/json-api-mocker) — Instant REST API from a JSON file
+- [Git Commit Analyzer](https://github.com/spinov001-art/git-commit-analyzer) — Analyze commit quality and patterns
+- [Dockerfile Linter](https://github.com/spinov001-art/dockerfile-linter) — Lint Dockerfiles for best practices
