@@ -1,181 +1,304 @@
-# Awesome Free APIs 2026 🔥
+# Awesome Free APIs 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> **300+ APIs that are completely free** — no API key, no signup, no credit card. Just send a request.
+[![GitHub stars](https://img.shields.io/github/stars/spinov001-art/awesome-free-apis-2026?style=social)](https://github.com/spinov001-art/awesome-free-apis-2026)
+[![Last Updated](https://img.shields.io/badge/last%20updated-March%202026-brightgreen)](https://github.com/spinov001-art/awesome-free-apis-2026)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/spinov001-art/awesome-free-apis-2026/pulls)
 
-Stop paying for data. These APIs give you everything from weather to AI to security — for free.
+> 150+ free APIs for developers in 2026. Build apps, automate workflows, and access real data without spending a dime.
 
-⭐ **Star this repo** — new APIs added weekly.
+## Contents
+
+- [No API Key Required](#no-api-key-required)
+- [Weather and Environment](#weather-and-environment)
+- [Finance and Crypto](#finance-and-crypto)
+- [News and Media](#news-and-media)
+- [AI and Machine Learning](#ai-and-machine-learning)
+- [Government and Open Data](#government-and-open-data)
+- [Science and Space](#science-and-space)
+- [Maps and Geolocation](#maps-and-geolocation)
+- [Entertainment and Games](#entertainment-and-games)
+- [Sports](#sports)
+- [Health and Fitness](#health-and-fitness)
+- [Animals](#animals)
+- [Food and Drink](#food-and-drink)
+- [Music](#music)
+- [Books and Education](#books-and-education)
+- [Security](#security)
+- [Development Tools](#development-tools)
+- [Social and Communication](#social-and-communication)
+- [Images and Media](#images-and-media)
+- [Transportation](#transportation)
 
 ---
 
 ## No API Key Required
 
-### Data & Search
-| API | Description | Example |
-|-----|-------------|---------|
-| [Wikipedia](https://en.wikipedia.org/api/rest_v1/) | Any article as JSON | `curl https://en.wikipedia.org/api/rest_v1/page/summary/Python` |
-| [crt.sh](https://crt.sh) | SSL certificates, subdomain discovery | `curl "https://crt.sh/?q=%.github.com&output=json"` |
-| [Archive.org](https://archive.org/developers/) | Wayback Machine, book metadata | `curl "https://archive.org/wayback/available?url=example.com"` |
-| [Open Library](https://openlibrary.org/developers/api) | 20M+ books metadata | `curl "https://openlibrary.org/search.json?q=python"` |
-| [DuckDuckGo](https://api.duckduckgo.com/) | Instant answers | `curl "https://api.duckduckgo.com/?q=python&format=json"` |
+These APIs work with a simple GET request - no signup needed.
 
-### Science & Research
-| API | Description | Example |
-|-----|-------------|---------|
-| [arXiv](https://arxiv.org/help/api) | 2M+ research papers | `curl "http://export.arxiv.org/api/query?search_query=all:ai"` |
-| [Crossref](https://api.crossref.org) | 150M+ DOIs, citation counts, funding data | `curl "https://api.crossref.org/works?query=machine+learning"` |
-| [OpenAlex](https://openalex.org) | 250M+ research works, 90M+ authors, no key | `curl "https://api.openalex.org/works?search=web+scraping"` |
-| [CORE](https://core.ac.uk) | 260M+ papers, 36M+ full-text from 10K+ repos | Requires free API key |
-| [Semantic Scholar](https://api.semanticscholar.org) | 200M+ papers, AI recommendations | `curl "https://api.semanticscholar.org/graph/v1/paper/search?query=ai"` |
-| [PubMed](https://eutils.ncbi.nlm.nih.gov/) | 36M+ medical papers | `curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=ai"` |
-| [NASA](https://api.nasa.gov) | Mars photos, asteroids, APOD, 20+ APIs | `curl "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"` |
-| [Europe PMC](https://europepmc.org/RestfulWebService) | 40M+ biomedical papers, full-text | `curl "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=covid"` |
-| [Unpaywall](https://unpaywall.org/products/api) | Find open access versions of papers | `curl "https://api.unpaywall.org/v2/10.1038/nature12373?email=test@test.com"` |
-| [ORCID](https://info.orcid.org/documentation/api-tutorials/) | 18M+ researcher profiles, no key needed | `curl -H "Accept: application/json" "https://pub.orcid.org/v3.0/search/?q=family-name:Einstein"` |
-| [DBLP](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) | 6M+ CS publications, no key needed | `curl "https://dblp.org/search/publ/api?q=transformer&format=json&h=5"` |
-| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392) | GDP, population, 16K+ indicators, 200+ countries | `curl "https://api.worldbank.org/v2/country/US/indicator/NY.GDP.MKTP.CD?format=json"` |
+| API | Description | URL |
+|-----|------------|-----|
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com) | Fake REST API for testing | jsonplaceholder.typicode.com |
+| [httpbin](https://httpbin.org) | HTTP request/response testing | httpbin.org |
+| [wttr.in](https://wttr.in) | Weather in plain text | wttr.in/London |
+| [Dog CEO](https://dog.ceo/dog-api/) | Random dog images | dog.ceo/api |
+| [Cat Facts](https://catfact.ninja) | Random cat facts | catfact.ninja |
+| [PokeAPI](https://pokeapi.co) | Pokemon data | pokeapi.co |
+| [Rick and Morty](https://rickandmortyapi.com) | Character/episode data | rickandmortyapi.com |
+| [Open Notify](http://open-notify.org) | ISS location and astronauts | api.open-notify.org |
+| [IP API](https://ip-api.com) | IP geolocation | ip-api.com |
+| [Bored API](https://www.boredapi.com) | Random activity suggestions | boredapi.com |
+| [Agify](https://agify.io) | Predict age from name | agify.io |
+| [Nationalize](https://nationalize.io) | Predict nationality from name | nationalize.io |
+| [Genderize](https://genderize.io) | Predict gender from name | genderize.io |
+| [Advice Slip](https://api.adviceslip.com) | Random advice | api.adviceslip.com |
+| [Quotable](https://api.quotable.io) | Random quotes | api.quotable.io |
+| [Numbers API](http://numbersapi.com) | Facts about numbers | numbersapi.com |
+| [xkcd](https://xkcd.com/json.html) | XKCD comics data | xkcd.com/info.0.json |
+| [Yes No](https://yesno.wtf) | Random yes/no with GIF | yesno.wtf/api |
+| [Faker API](https://fakerapi.it) | Fake data generation | fakerapi.it |
+| [Random User](https://randomuser.me) | Random user profiles | randomuser.me |
+| [QR Code](https://goqr.me/api) | Generate QR codes | api.qrserver.com |
+| [Archive.org](https://archive.org) | Internet Archive search | archive.org/advancedsearch.php |
+| [DummyJSON](https://dummyjson.com) | Fake e-commerce data | dummyjson.com |
+| [ReqRes](https://reqres.in) | Fake REST API with auth | reqres.in |
+| [Public Holiday](https://date.nager.at) | Public holidays by country | date.nager.at |
 
-### Security & OSINT
-| API | Description | Example |
-|-----|-------------|---------|
-| [crt.sh](https://crt.sh) | Certificate transparency, subdomains | No key needed |
-| [URLhaus](https://urlhaus-api.abuse.ch/) | Malicious URL database | `curl -d "url=http://example.com" https://urlhaus-api.abuse.ch/v1/url/` |
-| [EmailRep.io](https://emailrep.io/) | Email reputation scoring | `curl "https://emailrep.io/test@example.com"` |
-| [RDAP](https://rdap.org/) | Modern WHOIS replacement (JSON) | `curl "https://rdap.org/domain/example.com"` |
-| [AbuseIPDB](https://www.abuseipdb.com/api) | IP reputation (free key) | 1,000 checks/day |
-| [Shodan](https://developer.shodan.io/) | Device search (free key) | 100 results/search |
-| [VirusTotal](https://developers.virustotal.com/) | File/URL scanning (free key) | 4 req/min |
-| [HIBP](https://haveibeenpwned.com/API/) | Data breach checking | Free for individual lookups |
-| [NVD](https://nvd.nist.gov/developers/) | 250K+ CVE vulnerability database | 5 req/30s (free key: 50) |
-| [Censys](https://search.censys.io/api) | Internet host & certificate search | 250 queries/month free |
-| [SecurityTrails](https://securitytrails.com/corp/api) | DNS history & subdomains | 50 queries/month free |
-| [MalwareBazaar](https://bazaar.abuse.ch/api/) | Malware sample database | No key needed |
+## Weather and Environment
 
-### Developer Tools
-| API | Description | Example |
-|-----|-------------|---------|
-| [GitHub](https://api.github.com) | Repos, users, code search | `curl "https://api.github.com/search/repositories?q=web+scraping"` |
-| [npm Registry](https://registry.npmjs.org) | Package metadata, downloads | `curl "https://registry.npmjs.org/express"` |
-| [PyPI](https://pypi.org/simple/) | Python package metadata | `curl "https://pypi.org/pypi/requests/json"` |
-| [cdnjs](https://cdnjs.com/api) | JS library CDN links | `curl "https://api.cdnjs.com/libraries?search=react"` |
-| [Hacker News](https://hacker-news.firebaseio.com/) | Stories, comments, users | `curl "https://hacker-news.firebaseio.com/v0/topstories.json"` |
-| [npms.io](https://api.npms.io/) | npm package quality scores | `curl "https://api.npms.io/v2/package/express"` |
-| [Libraries.io](https://libraries.io/api) | Package dependency tracking (free key) | 60 req/min |
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [OpenWeatherMap](https://openweathermap.org/api) | Weather data, forecasts, maps | 1,000 calls/day |
+| [WeatherAPI](https://www.weatherapi.com) | Current, forecast, history, astronomy | 1M calls/month |
+| [Open-Meteo](https://open-meteo.com) | Weather forecast, no key needed | Unlimited non-commercial |
+| [Visual Crossing](https://www.visualcrossing.com) | Historical and forecast weather | 1,000 records/day |
+| [AirVisual](https://www.iqair.com/air-pollution-data-api) | Air quality data worldwide | 5,000 calls/month |
+| [Sunrise-Sunset](https://sunrise-sunset.org/api) | Sunrise/sunset times, no key | Unlimited |
 
-### Finance, Economics & Crypto
-| API | Description | Example |
-|-----|-------------|---------|
-| [FRED](https://fred.stlouisfed.org/docs/api/) | 800K+ US economic time series (GDP, unemployment, inflation) | `curl "https://api.stlouisfed.org/fred/series/observations?series_id=GDP&api_key=KEY&file_type=json"` |
-| [CoinGecko](https://www.coingecko.com/en/api) | Crypto prices, market cap | `curl "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"` |
-| [Exchange Rates](https://open.er-api.com/) | Currency exchange rates | `curl "https://open.er-api.com/v6/latest/USD"` |
+## Finance and Crypto
 
-### Weather & Geo
-| API | Description | Example |
-|-----|-------------|---------|
-| [Open-Meteo](https://open-meteo.com/) | Weather forecast, no key | `curl "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true"` |
-| [ip-api](http://ip-api.com/) | IP geolocation | `curl "http://ip-api.com/json/8.8.8.8"` |
-| [CountryIs](https://country.is/) | IP to country | `curl "https://api.country.is/8.8.8.8"` |
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Alpha Vantage](https://www.alphavantage.co) | Stocks, forex, crypto data | 25 calls/day |
+| [CoinGecko](https://www.coingecko.com/en/api) | Crypto prices, 10,000+ coins | 30 calls/min |
+| [CoinCap](https://docs.coincap.io) | Real-time crypto data | Unlimited |
+| [ExchangeRate-API](https://www.exchangerate-api.com) | Currency exchange rates | 1,500 calls/month |
+| [Open Exchange Rates](https://openexchangerates.org) | 170+ currencies | 1,000 calls/month |
+| [Frankfurter](https://www.frankfurter.app) | ECB exchange rates, no key | Unlimited |
+| [Polygon.io](https://polygon.io) | Stock market data | 5 calls/min |
+| [Finnhub](https://finnhub.io) | Real-time stock data | 60 calls/min |
+| [Yahoo Finance](https://finance.yahoo.com) | Stock quotes (unofficial) | Varies |
 
-### Media
-| API | Description | Example |
-|-----|-------------|---------|
-| [Lorem Picsum](https://picsum.photos/) | Random images | `https://picsum.photos/200/300` |
-| [Dog API](https://dog.ceo/dog-api/) | Random dog photos | `curl "https://dog.ceo/api/breeds/image/random"` |
-| [Unsplash Source](https://source.unsplash.com/) | Free stock photos | Direct URL |
+## News and Media
 
-### Fun & Misc
-| API | Description | Example |
-|-----|-------------|---------|
-| [Chuck Norris](https://api.chucknorris.io/) | Random jokes | `curl "https://api.chucknorris.io/jokes/random"` |
-| [Cat Facts](https://catfact.ninja/) | Random cat facts | `curl "https://catfact.ninja/fact"` |
-| [Bored API](https://www.boredapi.com/) | Activity suggestions | `curl "https://www.boredapi.com/api/activity"` |
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [NewsAPI](https://newsapi.org) | News from 80,000+ sources | 100 requests/day |
+| [GNews](https://gnews.io) | Google News data | 100 requests/day |
+| [The Guardian](https://open-platform.theguardian.com) | Guardian articles | 12 calls/sec |
+| [New York Times](https://developer.nytimes.com) | NYT articles, books, movies | 500 calls/day |
+| [Hacker News](https://github.com/HackerNews/API) | HN stories, comments | Unlimited |
+| [Reddit](https://www.reddit.com/dev/api) | Posts, comments, users | 60 requests/min |
+| [DEV.to](https://developers.forem.com/api) | Dev articles and users | Generous limits |
+| [MediaStack](https://mediastack.com) | Live news from 7,500+ sources | 500 calls/month |
+
+## AI and Machine Learning
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Hugging Face](https://huggingface.co/inference-api) | 200,000+ ML models | Rate limited |
+| [Replicate](https://replicate.com) | Run ML models via API | Pay per prediction |
+| [Clarifai](https://www.clarifai.com) | Image/video recognition | 1,000 ops/month |
+| [DeepAI](https://deepai.org) | Text generation, image tools | 500 calls/month |
+| [Perspective API](https://perspectiveapi.com) | Toxicity analysis by Google | 1 QPS |
+| [Wit.ai](https://wit.ai) | NLP by Meta | Free |
+| [OpenRouter](https://openrouter.ai) | Multi-model AI API | Free models available |
+
+## Government and Open Data
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Data.gov](https://api.data.gov) | US government datasets | Unlimited |
+| [World Bank](https://datahelpdesk.worldbank.org) | Global development data | Unlimited |
+| [REST Countries](https://restcountries.com) | Country info, no key | Unlimited |
+| [Census](https://www.census.gov/data/developers.html) | US population data | Unlimited |
+| [EU Open Data](https://data.europa.eu) | European Union datasets | Unlimited |
+| [UK Government](https://www.api.gov.uk) | UK public data | Unlimited |
+| [FBI Crime Data](https://crime-data-explorer.fr.cloud.gov) | US crime statistics | Unlimited |
+
+## Science and Space
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [NASA](https://api.nasa.gov) | Mars photos, asteroids, APOD | 1,000 calls/hour |
+| [SpaceX](https://github.com/r-spacex/SpaceX-API) | Launch data, rockets, crew | Unlimited |
+| [Open Notify](http://open-notify.org) | ISS position, astronauts | Unlimited |
+| [USGS Earthquake](https://earthquake.usgs.gov/fdsnws/event/1/) | Real-time earthquake data | Unlimited |
+| [arXiv](https://arxiv.org/help/api) | Academic papers | Unlimited |
+| [PubChem](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) | Chemical compound data | Unlimited |
+| [OpenAlex](https://openalex.org) | 250M+ academic works | Unlimited |
+
+## Maps and Geolocation
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [OpenStreetMap](https://wiki.openstreetmap.org/wiki/API) | Map data, geocoding | Unlimited |
+| [Nominatim](https://nominatim.org) | Geocoding and reverse geocoding | 1 req/sec |
+| [IP Geolocation](https://ipgeolocation.io) | IP to location | 1,000 calls/day |
+| [ipinfo.io](https://ipinfo.io) | IP address data | 50,000/month |
+| [Mapbox](https://www.mapbox.com) | Maps, geocoding, navigation | 100,000 loads/month |
+| [PositionStack](https://positionstack.com) | Forward and reverse geocoding | 25,000/month |
+
+## Entertainment and Games
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [TMDB](https://www.themoviedb.org/documentation/api) | Movies and TV shows | Unlimited |
+| [OMDb](https://www.omdbapi.com) | Movie database | 1,000 calls/day |
+| [RAWG](https://rawg.io/apidocs) | Video games database | 20,000 calls/month |
+| [IGDB](https://api-docs.igdb.com) | Game data by Twitch | 4 requests/sec |
+| [Jikan](https://jikan.moe) | Anime/manga data (MyAnimeList) | 3 req/sec |
+| [Trivia API](https://opentdb.com/api_config.php) | Trivia questions | Unlimited |
+| [Chuck Norris](https://api.chucknorris.io) | Chuck Norris jokes | Unlimited |
+| [JokeAPI](https://jokeapi.dev) | Jokes in multiple categories | Unlimited |
+| [Deck of Cards](https://deckofcardsapi.com) | Card deck simulator | Unlimited |
+
+## Sports
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [ESPN](https://site.api.espn.com) | Sports scores and news (unofficial) | Unlimited |
+| [Football-Data](https://www.football-data.org) | Soccer/football data | 10 calls/min |
+| [NBA API](https://nba-api.com) | Basketball stats (unofficial) | Varies |
+| [NHL API](https://statsapi.web.nhl.com) | Hockey statistics | Unlimited |
+| [TheSportsDB](https://www.thesportsdb.com) | Multi-sport database | Free tier |
+| [F1 API](https://ergast.com/mrd/) | Formula 1 data | Unlimited |
+
+## Health and Fitness
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [OpenFDA](https://open.fda.gov) | Drug, food, device data | Unlimited |
+| [COVID Tracking](https://disease.sh) | COVID-19 statistics | Unlimited |
+| [Nutritionix](https://www.nutritionix.com/business/api) | Nutrition data | Free for dev |
+| [FHIR](https://www.hl7.org/fhir/) | Health data standard | Open |
+
+## Animals
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Dog CEO](https://dog.ceo/dog-api/) | Random dog images, breeds | Unlimited |
+| [The Cat API](https://thecatapi.com) | Cat images and breeds | Unlimited |
+| [RandomFox](https://randomfox.ca) | Random fox images | Unlimited |
+| [HTTP Cat](https://http.cat) | HTTP status as cats | Unlimited |
+| [Dog API](https://thedogapi.com) | Dog breeds and images | Unlimited |
+
+## Food and Drink
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [TheMealDB](https://www.themealdb.com/api.php) | Meal recipes | Unlimited |
+| [TheCocktailDB](https://www.thecocktaildb.com/api.php) | Cocktail recipes | Unlimited |
+| [Spoonacular](https://spoonacular.com/food-api) | Recipes and nutrition | 150 calls/day |
+| [Open Brewery DB](https://www.openbrewerydb.org) | Brewery data | Unlimited |
+| [Open Food Facts](https://world.openfoodfacts.org/data) | Food product data | Unlimited |
+
+## Music
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Spotify](https://developer.spotify.com/documentation/web-api) | Music data and playback | Rate limited |
+| [Last.fm](https://www.last.fm/api) | Music stats and recommendations | Unlimited |
+| [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) | Music metadata | 1 req/sec |
+| [Lyrics.ovh](https://lyricsovh.docs.apiary.io) | Song lyrics | Unlimited |
+| [Deezer](https://developers.deezer.com/api) | Music data | Rate limited |
+
+## Books and Education
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Open Library](https://openlibrary.org/developers/api) | Books data (20M+ books) | Unlimited |
+| [Google Books](https://developers.google.com/books) | Book search and metadata | 1,000 calls/day |
+| [Gutenberg](https://gutendex.com) | Free ebooks | Unlimited |
+| [Dictionary API](https://dictionaryapi.dev) | Word definitions | Unlimited |
+| [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page) | Encyclopedia content | Rate limited |
+| [Crossref](https://www.crossref.org/documentation/) | Academic citations | Unlimited |
+
+## Security
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Have I Been Pwned](https://haveibeenpwned.com/API) | Data breach checking | Free for passwords |
+| [VirusTotal](https://developers.virustotal.com) | File/URL scanning | 500 requests/day |
+| [Shodan](https://developer.shodan.io) | Internet device search | 1 request/sec |
+| [AbuseIPDB](https://www.abuseipdb.com/api) | IP abuse checking | 1,000 checks/day |
+| [PhishTank](https://phishtank.org/developer_info.php) | Phishing URL database | Free |
+| [URLhaus](https://urlhaus-api.abuse.ch) | Malware URL database | Unlimited |
+
+## Development Tools
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [GitHub](https://docs.github.com/en/rest) | Repos, users, issues | 5,000 requests/hour |
+| [GitLab](https://docs.gitlab.com/ee/api/) | GitLab platform API | Generous |
+| [npm](https://github.com/npm/registry) | Package registry data | Unlimited |
+| [Libraries.io](https://libraries.io/api) | Package dependency data | 60 calls/min |
+| [Shields.io](https://shields.io) | Dynamic badges | Unlimited |
+| [Carbon](https://carbon.now.sh) | Code to image | Unlimited |
+| [Wakatime](https://wakatime.com/developers) | Coding time tracking | Free tier |
+| [Codeforces](https://codeforces.com/apiHelp) | Competitive programming | Unlimited |
+
+## Social and Communication
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Discord](https://discord.com/developers/docs) | Bot and webhook API | Free |
+| [Telegram](https://core.telegram.org/bots/api) | Bot API | Free |
+| [Slack](https://api.slack.com) | Workspace API | Free tier |
+| [Mastodon](https://docs.joinmastodon.org/api/) | Fediverse social API | Unlimited |
+| [Bluesky](https://docs.bsky.app) | AT Protocol social API | Free |
+
+## Images and Media
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [Unsplash](https://unsplash.com/developers) | Free high-res photos | 50 requests/hour |
+| [Pexels](https://www.pexels.com/api/) | Free stock photos/videos | 200 requests/hour |
+| [Placeholder](https://placeholder.com) | Placeholder images | Unlimited |
+| [Lorem Picsum](https://picsum.photos) | Random images | Unlimited |
+| [Imgur](https://apidocs.imgur.com) | Image hosting API | 1,250 uploads/day |
+| [Cloudinary](https://cloudinary.com) | Image/video management | 25,000 transforms/month |
+
+## Transportation
+
+| API | Description | Free Tier |
+|-----|------------|-----------|
+| [OpenSky Network](https://opensky-network.org/apidoc/) | Live flight tracking | Free for non-commercial |
+| [AviationStack](https://aviationstack.com) | Flight data | 500 calls/month |
+| [MBTA](https://www.mbta.com/developers) | Boston transit data | Unlimited |
+| [TransLoc](https://transloc.com) | Public transit tracking | Free tier |
+| [Open Charge Map](https://openchargemap.org/site/develop/api) | EV charging stations | Unlimited |
 
 ---
 
-## APIs That Need a Free Key
+## Related Awesome Lists
 
-These require signup but the free tier is generous:
-
-| API | Free Tier | What You Get |
-|-----|-----------|-------------|
-| Shodan | 100 results/search | Internet device search |
-| VirusTotal | 4 req/min | Malware scanning |
-| HIBP | 10 req/min | Breach checking |
-| News API | 100 req/day | News headlines |
-| OpenWeatherMap | 60 req/min | Weather data |
-| Abstract API | 100 req/day | Email validation, IP |
-| Cloudflare Radar | 10K req/day | Internet traffic data by country, top domains, attack trends |
-| Geekbench Browser | No key needed | CPU benchmark scores for any processor |
-| EmailRep | 20 req/day | Email reputation scoring |
-| RDAP (IANA) | Unlimited | Domain/IP registration data (replacing WHOIS) |
-| PyPI JSON API | No key needed | Python package metadata and versions |
-| npm Registry | No key needed | npm package info and security advisories |
-
-## Related
-- [Reddit Data Toolkit](https://github.com/spinov001-art/reddit-data-toolkit) — Extract Reddit data without API key: posts, comments, scores, sentiment
-
-- [Awesome Web Scraping 2026](https://github.com/spinov001-art/awesome-web-scraping-2026) — 77+ scraping tools
-- [API Scraping Templates](https://github.com/spinov001-art/api-scraping-templates) — 20+ ready Python templates
-- [Python Security Tools](https://github.com/spinov001-art/python-security-tools) — 10 security recon scripts
-- [Free Developer Tools](https://github.com/spinov001-art/free-developer-tools-2026) — 200+ free dev tools
-- [HN API Toolkit](https://github.com/spinov001-art/hn-api-toolkit) — Hacker News API scripts
-- [Email OSINT Toolkit](https://github.com/spinov001-art/email-osint-toolkit) — Email reputation & breach tools
-- [WHOIS Lookup Tools](https://github.com/spinov001-art/whois-lookup-tools) — Domain intelligence
-- [npm Security Scanner](https://github.com/spinov001-art/npm-security-scanner) — npm vulnerability scanning
-- [API Monetization Guide](https://github.com/spinov001-art/api-monetization-guide) — How to make money with APIs
-- [Get Paid Writing Technical Articles](https://github.com/spinov001-art/get-paid-writing-technical-articles) — 25+ companies paying $200-1500/article
-- [API Rate Limiter Patterns](https://github.com/spinov001-art/api-rate-limiter-patterns) — Token bucket, backoff, sliding window
-- [ARM CPU Benchmarks](https://github.com/spinov001-art/arm-cpu-benchmarks) — ARM vs x86 performance comparisons
-- [NVD Vulnerability Scanner](https://github.com/spinov001-art/nvd-vulnerability-scanner) — Scan Python deps against 250K+ CVEs
-- [VirusTotal Scanner](https://github.com/spinov001-art/virustotal-scanner) — Scan files/URLs against 70+ AV engines
-- [Shodan Scanner](https://github.com/spinov001-art/shodan-scanner) — Internet-connected device search
-- [HIBP Password Checker](https://github.com/spinov001-art/hibp-password-checker) — Check passwords against 14B+ breaches
-- [Censys Scanner](https://github.com/spinov001-art/censys-scanner) — Host & certificate search
-- [Wine Linux Compatibility](https://github.com/spinov001-art/wine-linux-compatibility) — Run Windows apps on Linux
-- [Free API Monetization Guide](https://github.com/spinov001-art/free-api-monetization-guide) — Turn free APIs into $1K-10K/month revenue
-
-- [Hidden JSON APIs](https://github.com/spinov001-art/hidden-json-apis) — Secret JSON endpoints on popular sites
-- [Web Scraping Python Examples](https://github.com/spinov001-art/web-scraping-python-examples) — 30+ copy-paste Python scraping scripts
-- [Awesome Research APIs](https://github.com/spinov001-art/awesome-research-apis) — Free academic & scientific APIs
-- [OpenAlex Research Tool](https://github.com/spinov001-art/openalex-research-tool) — Search 250M+ academic works via OpenAlex API
-- [CORE Research Tool](https://github.com/spinov001-art/core-research-tool) — Search 260M+ papers with full-text access
-- [Python API Wrapper Template](https://github.com/spinov001-art/python-api-wrapper-template) — Production-ready template with rate limiting
-- [Social Media Data Extractor](https://github.com/spinov001-art/social-media-data-extractor) — Multi-platform social data extraction
-- [Crossref DOI Tool](https://github.com/spinov001-art/crossref-doi-tool) — Look up any DOI metadata
-- [Unpaywall OA Checker](https://github.com/spinov001-art/unpaywall-oa-checker) — Find open access paper versions
-- [Europe PMC Tool](https://github.com/spinov001-art/europe-pmc-tool) — 40M+ biomedical papers search
-- [World Bank Data Tool](https://github.com/spinov001-art/world-bank-data-tool) — GDP, population for 200+ countries
-- [ORCID Researcher Lookup](https://github.com/spinov001-art/orcid-researcher-lookup) — 18M+ researcher profiles
-- [DBLP Paper Search](https://github.com/spinov001-art/dblp-paper-search) — 6M+ CS publications search
-- [NASA Data Tool](https://github.com/spinov001-art/nasa-data-tool) — 20+ NASA APIs (asteroids, Mars, exoplanets)
-- [FRED Economic Data](https://github.com/spinov001-art/fred-economic-data) — 800K+ US economic time series
-- [Academic Research Toolkit](https://github.com/spinov001-art/academic-research-toolkit) — All research APIs in one place
-- [npm Typosquat Scanner](https://github.com/spinov001-art/npm-typosquat-scanner) — Detect typosquatting attacks on npm packages
-- [PyPI Typosquat Scanner](https://github.com/spinov001-art/pypi-typosquat-scanner) — Detect typosquatting attacks on Python packages
-- [Dependency Audit Toolkit](https://github.com/spinov001-art/dependency-audit-toolkit) — Supply chain security for npm + PyPI
-
-### New Toolkits (March 2026)
-
-- [ClinicalTrials.gov Toolkit](https://github.com/spinov001-art/clinicaltrials-research-toolkit) — Search 500K+ clinical trials worldwide
-- [Patent API Toolkit](https://github.com/spinov001-art/patent-api-toolkit) — Search 8M+ US patents (no key)
-- [Finance API Toolkit](https://github.com/spinov001-art/finance-api-toolkit) — Stocks, crypto, forex, economics
-- [Weather API Toolkit](https://github.com/spinov001-art/weather-api-toolkit) — Open-Meteo: forecast + history, no key
-- [IP Geolocation Toolkit](https://github.com/spinov001-art/ip-geolocation-toolkit) — Location + security for any IP
-- [API Security Scanner](https://github.com/spinov001-art/api-security-scanner) — 5 free security APIs in one tool
-- [Geocoding Toolkit](https://github.com/spinov001-art/geocoding-toolkit) — Address ↔ coordinates, no Google key
-- [DNS Lookup Toolkit](https://github.com/spinov001-art/dns-lookup-toolkit) — DNS, WHOIS, SSL certificate checks
-
-## Need Custom API Integration?
-
-I build data pipelines that pull from any API. **[Hire me →](https://spinov001-art.github.io)**
+- [Awesome Web Scraping 2026](https://github.com/spinov001-art/awesome-web-scraping-2026) - 150+ scraping tools
+- [Awesome MCP Tools 2026](https://github.com/spinov001-art/awesome-mcp-tools-2026) - 130+ MCP servers
+- [Awesome Security Tools 2026](https://github.com/spinov001-art/awesome-security-tools-2026) - 150+ cybersecurity tools
+- [Awesome AI Tools 2026](https://github.com/spinov001-art/awesome-ai-tools-2026) - 150+ AI tools
+- [Awesome DevOps Tools 2026](https://github.com/spinov001-art/awesome-devops-tools-2026) - 120+ DevOps tools
+- [Awesome API Tools 2026](https://github.com/spinov001-art/awesome-api-tools-2026) - 120+ API tools
+- [Awesome Automation Tools 2026](https://github.com/spinov001-art/awesome-automation-tools-2026) - 130+ automation tools
+- [Awesome CLI Tools 2026](https://github.com/spinov001-art/awesome-cli-tools-2026) - 50+ CLI tools
+- [Awesome Python DevTools 2026](https://github.com/spinov001-art/awesome-python-devtools-2026) - 80+ Python tools
+- [Claude Code Examples](https://github.com/spinov001-art/claude-code-examples) - 50+ Claude Code examples
 
 ---
 
-**Know an API I missed?** [Open an issue](https://github.com/spinov001-art/awesome-free-apis-2026/issues) — I'll add it.
-- [API Vulnerability Scanner](https://github.com/spinov001-art/api-vulnerability-scanner) — OWASP Top 10 API security scanner
-- [API Rate Limit Tester](https://github.com/spinov001-art/api-rate-limit-tester) — Test actual rate limits of any API
-- [Morning Briefing Bot](https://github.com/spinov001-art/morning-briefing-bot) — Daily weather + crypto + news via Telegram
-- [API Secrets Scanner](https://github.com/spinov001-art/api-secrets-scanner) — Find exposed API keys in code
-- [JSON API Mocker](https://github.com/spinov001-art/json-api-mocker) — Instant REST API from a JSON file
-- [Git Commit Analyzer](https://github.com/spinov001-art/git-commit-analyzer) — Analyze commit quality and patterns
-- [Dockerfile Linter](https://github.com/spinov001-art/dockerfile-linter) — Lint Dockerfiles for best practices
+**Need custom API integration?** [Hire me](https://spinov001-art.github.io) | Email: Spinov001@gmail.com
+
+## License
+
+MIT
+
+Star this repo if you find it useful!
