@@ -104,6 +104,7 @@ These require signup but the free tier is generous:
 | npm Registry | No key needed | npm package info and security advisories |
 
 ## Related
+- [Reddit Data Toolkit](https://github.com/spinov001-art/reddit-data-toolkit) — Extract Reddit data without API key: posts, comments, scores, sentiment
 
 - [Awesome Web Scraping 2026](https://github.com/spinov001-art/awesome-web-scraping-2026) — 77+ scraping tools
 - [API Scraping Templates](https://github.com/spinov001-art/api-scraping-templates) — 20+ ready Python templates
