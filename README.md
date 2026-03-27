@@ -297,6 +297,17 @@ These APIs work with a simple GET request - no signup needed.
 
 **Need custom API integration?** [Hire me](https://spinov001-art.github.io) | Email: Spinov001@gmail.com
 
+
+---
+
+## Need Custom Data Solutions?
+
+I build **production-grade web scrapers** and API integrations for businesses.
+
+- [88+ ready-made scrapers on Apify](https://apify.com/knotless_cadence) — Reddit, HN, YouTube, Trustpilot, and more
+- Custom scraper development in 24-48h
+- Email: **spinov001@gmail.com**
+
 ## License
 
 MIT
