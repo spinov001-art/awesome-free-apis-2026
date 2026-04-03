@@ -5,6 +5,13 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/spinov001-art/awesome-free-apis-2026/pulls)
 
 > 150+ free APIs for developers in 2026. Build apps, automate workflows, and access real data without spending a dime.
+>
+> **⭐ Star this repo** to keep it in your bookmarks — new APIs added every week.
+>
+> 🚀 **Need to scrape data from APIs at scale?** I've built **78+ ready-made scrapers** on Apify.
+> [Browse Apify actors →](https://apify.com/knotless_cadence) | Need something custom? Email **[spinov001@gmail.com](mailto:spinov001@gmail.com)**
+
+---
 
 ## Contents
 
