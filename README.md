@@ -309,11 +309,13 @@ These APIs work with a simple GET request - no signup needed.
 
 ## Need Custom Data Solutions?
 
-I build **production-grade web scrapers** and API integrations for businesses.
+I build **production-grade web scrapers** and API integrations — delivered in 48 hours or less.
+
+🔥 **First-time clients: free 30-min consultation** to scope your project. Reply today — I take on 2 new projects per week.
 
 - [88+ ready-made scrapers on Apify](https://apify.com/knotless_cadence) — Reddit, HN, YouTube, Trustpilot, and more
-- Custom scraper development in 24-48h
-- Email: **spinov001@gmail.com**
+- Custom development starting at $250 flat rate
+- 📧 **[spinov001@gmail.com](mailto:spinov001@gmail.com)** — response within 2 hours
 
 ## License
 
