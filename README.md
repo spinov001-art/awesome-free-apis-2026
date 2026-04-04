@@ -302,7 +302,9 @@ These APIs work with a simple GET request - no signup needed.
 
 ---
 
-**Need custom API integration?** [Hire me](https://spinov001-art.github.io) | Email: Spinov001@gmail.com
+**Need custom API integration?** Email: **[Spinov001@gmail.com](mailto:Spinov001@gmail.com)** — response within 2 hours
+
+📊 **Need market research?** Professional reports with TAM/SAM/SOM, competitive analysis, investor-ready format — from $200. Email **Spinov001@gmail.com**
 
 
 ---
