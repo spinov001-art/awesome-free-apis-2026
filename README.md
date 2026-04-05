@@ -9,7 +9,7 @@
 > **⭐ Star this repo** to keep it in your bookmarks — new APIs added every week.
 >
 > 🚀 **Need to scrape data from APIs at scale?** I've built **78+ ready-made scrapers** on Apify.
-> [Browse Apify actors →](https://apify.com/knotless_cadence) | Need something custom? Email **[spinov001@gmail.com](mailto:spinov001@gmail.com)**
+> [Browse Apify actors →](https://apify.com/knotless_cadence) | Need something custom? **$250 flat rate, 48h delivery.** Email **[spinov001@gmail.com](mailto:spinov001@gmail.com)**
 
 ---
 
