@@ -315,7 +315,7 @@ I build **production-grade web scrapers** and API integrations — delivered in 
 
 🔥 **First-time clients: free 30-min consultation** to scope your project. Reply today — I take on 2 new projects per week.
 
-- [88+ ready-made scrapers on Apify](https://apify.com/knotless_cadence) — Reddit, HN, YouTube, Trustpilot, and more
+- [78+ ready-made scrapers on Apify](https://apify.com/knotless_cadence) — Reddit, HN, YouTube, Trustpilot, and more
 - Custom development starting at $250 flat rate
 - 📧 **[spinov001@gmail.com](mailto:spinov001@gmail.com)** — response within 2 hours
 
