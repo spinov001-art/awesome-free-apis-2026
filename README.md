@@ -290,6 +290,7 @@ These APIs work with a simple GET request - no signup needed.
 ## Related Awesome Lists
 
 - [Awesome Web Scraping 2026](https://github.com/spinov001-art/awesome-web-scraping-2026) - 150+ scraping tools
+- [AI Market Research Reports](https://github.com/spinov001-art/ai-market-research-reports) - 500+ free market research reports (1,600+ clones)
 - [Awesome MCP Tools 2026](https://github.com/spinov001-art/awesome-mcp-tools-2026) - 130+ MCP servers
 - [Awesome Security Tools 2026](https://github.com/spinov001-art/awesome-security-tools-2026) - 150+ cybersecurity tools
 - [Awesome AI Tools 2026](https://github.com/spinov001-art/awesome-ai-tools-2026) - 150+ AI tools
