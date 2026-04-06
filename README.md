@@ -317,6 +317,7 @@ I build **production-grade web scrapers** and API integrations — delivered in 
 
 - [78+ ready-made scrapers on Apify](https://apify.com/knotless_cadence) — Reddit, HN, YouTube, Trustpilot, and more
 - Custom development starting at $250 flat rate
+- 💳 **[Pay securely via Payoneer →](https://link.payoneer.com/Token?t=E82590E5D2534557BF2FDBD721411A64&src=pl)** — flat rate, no hourly surprises
 - 📧 **[spinov001@gmail.com](mailto:spinov001@gmail.com)** — response within 2 hours
 
 ## License
@@ -324,3 +325,4 @@ I build **production-grade web scrapers** and API integrations — delivered in 
 MIT
 
 Star this repo if you find it useful!
+
