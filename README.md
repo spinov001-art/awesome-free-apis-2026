@@ -94,6 +94,7 @@ These APIs work with a simple GET request - no signup needed.
 | [Polygon.io](https://polygon.io) | Stock market data | 5 calls/min |
 | [Finnhub](https://finnhub.io) | Real-time stock data | 60 calls/min |
 | [Yahoo Finance](https://finance.yahoo.com) | Stock quotes (unofficial) | Varies |
+| [Eulerpool](https://eulerpool.com/developers) | Global stocks, ETFs, fundamentals, macro, crypto and FX data | 100,000 calls/month |
 
 ## News and Media
 
