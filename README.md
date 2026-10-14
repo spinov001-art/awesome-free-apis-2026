@@ -63,6 +63,7 @@ These APIs work with a simple GET request - no signup needed.
 | [xkcd](https://xkcd.com/json.html) | XKCD comics data | xkcd.com/info.0.json |
 | [Yes No](https://yesno.wtf) | Random yes/no with GIF | yesno.wtf/api |
 | [Faker API](https://fakerapi.it) | Fake data generation | fakerapi.it |
+| [FaviconDL](https://favicondl.com) | Free favicon extractor API (ICO/PNG/SVG/Apple); no key | favicondl.com/api/extract |
 | [Random User](https://randomuser.me) | Random user profiles | randomuser.me |
 | [QR Code](https://goqr.me/api) | Generate QR codes | api.qrserver.com |
 | [Archive.org](https://archive.org) | Internet Archive search | archive.org/advancedsearch.php |
@@ -271,6 +272,7 @@ These APIs work with a simple GET request - no signup needed.
 | [Unsplash](https://unsplash.com/developers) | Free high-res photos | 50 requests/hour |
 | [Pexels](https://www.pexels.com/api/) | Free stock photos/videos | 200 requests/hour |
 | [Placeholder](https://placeholder.com) | Placeholder images | Unlimited |
+| [FaviconDL](https://favicondl.com/documentation.html) | Favicon by URL (redirect or JSON); no API key | Unlimited |
 | [Lorem Picsum](https://picsum.photos) | Random images | Unlimited |
 | [Imgur](https://apidocs.imgur.com) | Image hosting API | 1,250 uploads/day |
 | [Cloudinary](https://cloudinary.com) | Image/video management | 25,000 transforms/month |
