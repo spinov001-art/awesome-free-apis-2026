@@ -54,6 +54,7 @@ These APIs work with a simple GET request - no signup needed.
 | [Open Notify](http://open-notify.org) | ISS location and astronauts | api.open-notify.org |
 | [IP API](https://ip-api.com) | IP geolocation | ip-api.com |
 | [Bored API](https://www.boredapi.com) | Random activity suggestions | boredapi.com |
+| [Bucketlist.nl Dream of the Day](https://bucketlist.nl/brand/droom-van-de-dag.openapi.json) | One daily travel or life-experience idea, image and source URL; Dutch by default | bucketlist.nl/api/droom-van-de-dag?lang=nl |
 | [Agify](https://agify.io) | Predict age from name | agify.io |
 | [Nationalize](https://nationalize.io) | Predict nationality from name | nationalize.io |
 | [Genderize](https://genderize.io) | Predict gender from name | genderize.io |
