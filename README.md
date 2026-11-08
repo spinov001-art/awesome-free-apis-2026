@@ -58,6 +58,7 @@ These APIs work with a simple GET request - no signup needed.
 | [Nationalize](https://nationalize.io) | Predict nationality from name | nationalize.io |
 | [Genderize](https://genderize.io) | Predict gender from name | genderize.io |
 | [Advice Slip](https://api.adviceslip.com) | Random advice | api.adviceslip.com |
+| [Datacircle](https://datacircle.dev) | Find the best GTM APIs | api.datacircle.dev/v1 |
 | [Quotable](https://api.quotable.io) | Random quotes | api.quotable.io |
 | [Numbers API](http://numbersapi.com) | Facts about numbers | numbersapi.com |
 | [xkcd](https://xkcd.com/json.html) | XKCD comics data | xkcd.com/info.0.json |
