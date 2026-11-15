@@ -218,6 +218,7 @@ These APIs work with a simple GET request - no signup needed.
 | [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) | Music metadata | 1 req/sec |
 | [Lyrics.ovh](https://lyricsovh.docs.apiary.io) | Song lyrics | Unlimited |
 | [Deezer](https://developers.deezer.com/api) | Music data | Rate limited |
+| [No Stairs Please](https://nostairsplease.com/mcp) | US small live-music venues across all 50 states (MCP) | Free, no auth |
 
 ## Books and Education
 
